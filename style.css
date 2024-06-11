@@ -1,0 +1,355 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(17, 16, 16);
+    color: white;
+}
+
+/* for nav bar online */
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 22px;
+    background-color: rgb(17, 16, 16);
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    margin-inline: 22px;
+}
+ul li a:hover{
+    width: 190px;
+    height: 57px;
+    border-radius: 10px;
+    color: rgb(0, 140, 255);
+    border-bottom: 5px solid rgb(0, 140, 255);
+}
+#bar{
+    display: none;
+}
+.logo{
+    font-size: 28px;
+}
+
+.logo span{
+    color: rgb(55, 55, 142);
+}
+
+/* @nd part start -----> Main parts */
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;/* image and text ek hi center me dikhenge */
+    
+    margin-top: 155px;
+
+
+
+}
+
+.mainText h1{
+    font-size: 70px;
+
+}
+
+.mainText h1 span{
+    color: rgb(53, 53, 161);
+}
+
+
+.mainText h3{
+    font-size: 28px;
+
+}
+
+.mainText p{
+    font-size: 30px;
+
+}
+.mainText button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(0, 153, 255);
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 34px;
+    color: white;
+
+}
+.main img{
+    width: 500px;
+    border-radius: 50%;
+    border: 4px solid rgb(45, 188, 155);
+    margin-inline: 75px;
+    
+
+}
+.main img:hover{
+    scale: 110%;
+    border: 4px solid rgb(45, 188, 155);
+}
+
+button:hover{
+    border: 2px solid rgb(0, 149, 255);
+    background-color: transparent;
+    cursor: pointer;
+}
+/* by using head class selector we first align all these in center */
+
+.head{
+    text-align: center;
+    padding: 80px;
+}
+
+.head span{
+    color: rgb(0, 140, 255);
+}
+
+/*  3rd phase about section start from here */
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(28 28, 28);
+    padding: 52px;
+}
+
+
+/* image gole ho raha hai  */
+.about img{
+    width: 250px;
+    border-radius: 50%;
+    border: 4px solid rgb(45, 188, 155);
+    margin-inline: 75px;
+
+}
+.about img:hover{
+    border: 4px solid rgb(0, 136, 255);
+    scale: 140%;
+}
+
+.aboutText p{
+    margin-top: 22px;
+}
+.aboutText h2 span{
+    color: rgb(0, 140, 255);
+}
+
+.aboutText p span{
+    color: rgb(228, 226, 226);
+}
+
+.aboutText h2{
+    font-size: 30px;
+}
+
+
+
+/*   4th phase servicess yaha se code hogaa   */
+
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 450px;
+    height: 250px;
+    padding: 22px;
+    background-color: rgb(34, 34, 34);
+    margin-inline: 20px;
+    border-radius: 5px;
+    margin-top: 22px;
+    transition: rgb(11, 154, 133) 0.5s ease-in-out;
+
+}
+.card:hover{
+    background-color: #c65d5d; 
+    border-radius: 22px;
+    scale: 110%; 
+}
+
+.card p{
+    margin-top: 11px;
+
+}
+.card i{
+    font-size: 26px;
+}
+
+/* ##########  My Work    5th phase  ---> start */
+
+.myWork{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.workCard{
+    width: 300px;
+    height: 310px;
+    background-color: #232323;
+    border-radius: 5px;
+    margin-inline: 20px;
+    padding: 11px;
+    margin-top: 22px;
+}
+
+.workCard img{
+    width:100%;
+    height: 200px;
+}
+
+.workCard p{
+    margin-top: 11px;
+}
+
+.workCard a{
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
+    padding: 6px 12px;
+    background-color: rgb(0, 128, 255);
+    color: white;
+}
+.workCard:hover{
+    background-color: #c65d5d; 
+    border-radius: 5px;
+    scale: 110%; 
+}
+
+
+/*  6th phase start -----> contact us */
+
+.contact{
+    width: 300px;
+    padding: 20px;
+    background-color: #303030;
+    margin: auto;
+}
+
+.contact input{
+    width: 90%;
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 3px;
+}
+
+.contact p{
+    margin-top: 20px;
+}
+.contact button{
+    width: 90px;
+    height: 28px;
+    background-color: rgb(0, 145, 255);
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-top: 22px ;
+}
+.contact:hover{
+    background-color: #c65d5d; 
+    border-radius: 5px;
+    color: #232323;
+    scale: 110%; 
+}
+
+/*  7th phase Footer -----> start */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 55px;
+    margin-top: 66px;
+    background-color: rgb(50, 21, 21);
+}
+
+.text{
+    margin-top: 20px;
+}
+.text p{
+    margin-top: 12px;
+}
+
+
+/*  responsive bana rahe hai */
+
+@media screen and (max-width:1000px){
+    .main{
+        display: block;
+        text-align: center;
+        margin-top: 155px;
+
+    }
+}
+
+@media screen and (max-width:800px){
+    ul{
+        display: None;
+    }
+    /* nav bar ko column me dikhana wla */
+    .showData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 23px;
+        background-color: rgb(60,59,59);
+        gap:20px;
+        border-radius: 5px;
+        position: fixed;
+        top: 75px;
+        right:3px
+    }
+    #bar{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:550px){
+    .mainText h1{
+        font-size: 36px;
+    }
+    .mainText h3{
+        font-size: 21px;
+    }
+    .mainText p{
+        font-size: 20px;
+    }
+    .main img{
+        width:60%;
+    }
+
+    .contact{
+        width: 80%;
+    }
+}
+
