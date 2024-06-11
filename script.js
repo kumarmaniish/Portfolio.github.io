@@ -7,7 +7,7 @@ let submit=document.getElementById("submit");
 
 let bar=document.getElementById("bar");
 cvBtn.addEventListener("click",function(){
-    alert("Please Click OK");
+    alert("Please Click OK to download");
 })
 
 
